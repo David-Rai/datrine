@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+.name{
+    color: rgb(73, 73, 73);
+}
+.about{
+    color: red;
+}
+main{
+min-height: 100vh;
+width: 100%;
+background-color: rgb(35, 37, 36);
+padding-left: 30px;
+}
+main p,.detail pre{
+    color: rgb(25, 116, 78);
+}
+main .input {
+    padding: 10px 0px;
+    display: flex;
+}
+main .input input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    color: rgb(25, 116, 78);
+}
+.neededData p{
+padding: 10px  0px;
+}
+.get{
+    color: white;
+}
